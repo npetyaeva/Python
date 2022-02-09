@@ -34,9 +34,9 @@
 
 2. Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 
 
-`touch myScript`
+`touch myScript.sh`
 
-`vim myscript`
+`vim myscript.sh`
 ```
 #!/bin/bash
 cd HW1
@@ -47,9 +47,9 @@ mkdir txtFolder jsonFolder anotherFiles
 ls -la
 mv oneJson.json secondJson.json jsonFolder/
 ```
-`chmod +x ./myscript`
+`chmod +x ./myscript.sh`
 
-`./myscript`
+`./myscript.sh`
 
 ------------------------------
 #### Полезности
