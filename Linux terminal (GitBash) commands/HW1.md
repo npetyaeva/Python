@@ -17,7 +17,7 @@
 13 | Переместить любые 2 файла, которые вы создали, в любую другую папку | `mv oneJson.json secondJson.json jsonFolder/`
 14 | Скопировать любые 2 файла, которые вы создали, в любую другую папку | `cp oneTxt.txt secondTxt.txt txtFolder/`
 15 | Найти файл по имени | `find -name secondTxt.txt`
-16 | Просмотреть содержимое в реальном времени (команда grep) изучите как она работает | `grep 'Создать' oneTxt.txt`
+16 | Просмотреть содержимое в реальном времени (команда grep) изучите как она работает | `tail -f name.log | grep --line-buffered pattern`
 17 | Вывести несколько первых строк из текстового файла | `head -n3 oneTxt.txt`
 18 | Вывести несколько последних строк из текстового файла | `tail -n3 oneTxt.txt`
 19 | Просмотреть содержимое длинного файла (команда less) изучите как она работает | `less oneTxt.txt`
@@ -59,6 +59,8 @@ mv oneJson.json secondJson.json jsonFolder/
 `clear` - очистка экрана
 
 [Grep](https://losst.ru/gerp-poisk-vnutri-fajlov-v-linux)
+
+[Перенаправить вывод tail -f через grep в файл](https://dgrafov.blogspot.com/2015/06/tail-f-grep.html)
 
 [10 команд curl (Client URL), которые вам следует знать](https://vc.ru/dev/155069-10-komand-curl-kotorye-vam-sleduet-znat)
 
