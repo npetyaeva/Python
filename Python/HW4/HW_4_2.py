@@ -18,4 +18,4 @@ currency_rates = {'usd': 0.013, 'eur': 0.011, 'uah': 0.36, 'chf': 0.012, 'byn': 
 amount = int(input())
 print('Ты ввёл', amount, 'RUB')
 for i, j in currency_rates.items():
-    print('конвертированная сумма в', i.upper(), '=', round(exchanger(amount, j), 2))
+    print('конвертированная сумма в', i.upper(), '=', round(exchanger(amount, j), 2), i.upper())
