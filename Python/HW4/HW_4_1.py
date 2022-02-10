@@ -6,10 +6,10 @@
 #                 "конвертированная сумма в USD = int"
 #     3. Валюту пользователя определите сами.
 
-def change(currency, currancy_rate):
+def exchanger(currency, currancy_rate):
     return currency * currancy_rate
 
 
 amount = int(input())
 print('Ты ввёл', amount, 'RUB')
-print('конвертированная сумма в USD = ', round(change(amount, 0.013), 2), 'USD')
+print('конвертированная сумма в USD = ', round(exchanger(amount, 0.013), 2), 'USD')
