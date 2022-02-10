@@ -10,7 +10,7 @@
 #                 "Конвертированная сумма в CNY = int"
 #     3. Валюту пользователя определите сами.
 
-def change(currency, currency_rate):
+def exchanger(currency, currency_rate):
     return currency * currency_rate
 
 
@@ -18,4 +18,4 @@ currency_rates = {'usd': 0.013, 'eur': 0.011, 'uah': 0.36, 'chf': 0.012, 'byn': 
 amount = int(input())
 print('Ты ввёл', amount, 'RUB')
 for i, j in currency_rates.items():
-    print('конвертированная сумма в', i.upper(), '=', round(change(amount, j), 2))
+    print('конвертированная сумма в', i.upper(), '=', round(exchanger(amount, j), 2))
