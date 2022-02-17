@@ -1,7 +1,7 @@
 ## Git
 
-[JSON](https://github.com/npetyaeva/JSON)
+1. **[JSON](https://github.com/npetyaeva/JSON)**
 
-[XML](https://github.com/npetyaeva/XML)
+2. **[XML](https://github.com/npetyaeva/XML)**
 
-[TXT](https://github.com/npetyaeva/TXT)
+3. **[TXT](https://github.com/npetyaeva/TXT)**
