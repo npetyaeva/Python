@@ -1,4 +1,9 @@
-## Git
+# Git
+
+### HW_2
+1. **[Git_branch](https://github.com/npetyaeva/Git_branch.git)**
+
+### HW_1
 
 1. **[JSON](https://github.com/npetyaeva/JSON)**
 
