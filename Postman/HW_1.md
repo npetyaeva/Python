@@ -42,7 +42,6 @@ response:
 'salary': salary,
 'family': {'children': [['Alex', 24], ['Kate', 12]],
 'u_salary_1_5_year': salary * 4}}
-
 ```   
 
 ![Episod 2](https://github.com/npetyaeva/QA/blob/main/Postman/img_hw_1/Ep_02.png)  
@@ -160,8 +159,6 @@ response:
 'u_age': age,
 'u_salary_5_years': salary * 4.2}
 }
-
-
 ```   
 
-![Episod 1](https://github.com/npetyaeva/QA/blob/main/Postman/img_hw_1/Ep_01.png)  
+![Episod 7](https://github.com/npetyaeva/QA/blob/main/Postman/img_hw_1/Ep_07.png)  
