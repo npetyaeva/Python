@@ -1,9 +1,9 @@
 # Git
 
-### HW_2
+#### HomeWork 2
 1. **[Git_branch](https://github.com/npetyaeva/Git_branch.git)**
 
-### HW_1
+#### HomeWork 1
 
 1. **[JSON](https://github.com/npetyaeva/JSON)**
 
